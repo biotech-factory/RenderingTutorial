@@ -1,0 +1,67 @@
+# =========================
+# Build outputs (CMake)
+# =========================
+/build/
+**/build/
+
+# (선택) out-of-source build를 다른 이름으로 쓰는 경우까지 대비
+/out/
+**/out/
+**/cmake-build-*/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/*.cmake.user
+**/*.ninja
+**/*.ninja_deps
+**/*.ninja_log
+**/.cmake/
+
+# =========================
+# vcpkg (local artifacts)
+# =========================
+# 프로젝트 루트에 vcpkg가 생기는 경우(로컬 클론, 서브모듈 등)
+/vcpkg/
+/vcpkg_installed/
+**/vcpkg_installed/
+**/vcpkg-manifest-install.log
+
+# =========================
+# Visual Studio / MSBuild
+# =========================
+.vs/
+**/.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# MSBuild intermediates/outputs
+Debug/
+Release/
+x64/
+x86/
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.tlog
+*.log
+*.lastbuildstate
+
+# =========================
+# Windows / general
+# =========================
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Optional: Clang/IntelliSense caches
+# =========================
+.cache/
+**/.cache/
+compile_commands.json
