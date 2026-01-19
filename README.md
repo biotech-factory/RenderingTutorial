@@ -1,2 +1,2 @@
 # RenderingTutorial
-C++, Vulkan rendering tutorial
+C++, Directx rendering tutorial
